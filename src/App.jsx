@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import contacts from './contacts.json'
-
+import './app.css'
 function App () {
   const [displayedContacts, setDisplayedContacts] = useState(
     contacts.slice(0, 5)
